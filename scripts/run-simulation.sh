@@ -122,7 +122,7 @@ sleep 2
 
 # 2. Start AirSim (background)
 echo "[run-simulation] Starting AirSim (AirSimNH)..."
-AIRSIM_ARGS="-ResX=640 -ResY=360 -windowed -Silent -NoLog"
+AIRSIM_ARGS="-ResX=1280 -ResY=720 -windowed"
 "${AIRSIM_BINARY}" ${AIRSIM_ARGS} >/dev/null 2>&1 &
 PIDS+=($!)
 echo "[run-simulation] AirSim started (PID: ${PIDS[-1]})"
