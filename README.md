@@ -1,5 +1,7 @@
 # AirSim-ArduPilot SITL Simulation Environment
 
+![AirSim-ArduPilotSITL](additional-readme/image.png)
+
 This project provides a streamlined setup for running AirSim environment with ArduPilot SITL (Software In The Loop) and QGroundControl, managed entirely through Pixi for reproducible builds.
 
 ## Overview
